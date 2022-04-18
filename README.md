@@ -30,3 +30,7 @@
 - 键盘控制小车运动:`rosrun teleop_twist_keyboard teleop_twist_keyboard.py`
 - 小车做圆周运动:`rosrun gazebo_control draw_circle.py`
 - 实车与仿真车映射:`rosrun gazebo_control real_car_ctl.py`
+
+## Q&A
+1. py文件rosrun运行失败，显示非可执行文件
+> 解决: `chmod +x A.py`
