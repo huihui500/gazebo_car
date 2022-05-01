@@ -62,7 +62,7 @@
     <material>Gazebo/Grey</material>
     <sensor type="ray" name="hokuyo_sensor">
       <pose>0 0 0.0124 0 0 0</pose>
-      <visualize>true</visualize>
+      <visualize>false</visualize>
       <update_rate>40</update_rate>
       <ray>
         <scan>
@@ -79,6 +79,7 @@
           <resolution>0.01</resolution>
         </range>
         <noise>
+          <type>gaussian</type>
           <mean>0.0</mean>
           <stddev>0.01</stddev>
         </noise>
